@@ -1,0 +1,204 @@
+.header1{
+    background-color: white;
+    border-bottom:solid 3px lightgray;
+    float: left;
+    width: 100%;
+    margin-top:890px;
+}
+
+.NameLogo{
+    padding: 30;
+    float: left;
+    margin-left: 237px;
+    background-color: #4aaaa5;
+}
+
+.Name{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+p{
+    text-align: center
+}
+
+.hrefLogoRight{
+    float: right;
+    color: darkgray;
+    padding: 35;
+    text-decoration:none;
+    font-size: 20;
+    margin-right: -30px;
+}
+
+.hrefLogoRightContact{
+    margin-right: 210px;
+    float: right;
+    color: darkgray;
+    padding: 35;
+    text-decoration:none;
+    font-size: 20;
+}
+
+.NameLogoRight{
+    float: right;
+    color: darkgray;
+    text-decoration:none;
+    margin-right: 366px;
+}
+
+.hrefLogoRight{
+    float: right;
+    color: darkgray;
+    padding: 35;
+    text-decoration:none;
+    font-size: 20;
+    margin-right: -30px;
+}
+
+.hrefLogoRight1{
+    margin-left:-40;
+    float: right;
+    color: darkgray;
+    padding: 35;
+    text-decoration:none;
+    font-size: 17;
+}
+
+.hrefLogoRight2{
+    float: right;
+    color: darkgray;
+    padding: 35;
+    text-decoration:none;
+    margin-left:-40;
+}
+
+.hrefLogoRight3{
+    float: right;
+    color: darkgray;
+    padding: 35;
+    text-decoration:none;
+    margin-right: auto;
+}
+
+.body1{
+    background-color: lightgray;
+    width: 100%;
+    margin-top: -900;
+
+}
+
+.bodyBackground{
+    background-color: lightgray;  
+    width: 100%;
+    height: 100%;
+}
+
+#AboutMe{
+    background-color: white;
+    margin-top: -665px;
+    width: 70%;
+    height: 510px;
+    margin:auto;
+    margin-top: 250px;
+}
+
+.AboutMeHeader{
+    float:left;
+    margin:40px 30px; 
+    color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#pic{
+    float: left;
+    width: 210px;
+    margin-left: 274;
+    margin-top: -400;
+    height: 200px;
+}
+
+.Paragraph{
+    width:850px;
+    float:left;
+    margin-left:500;
+    margin-top:-413px;
+    text-align:left;
+    font-size: 20;
+    color:gray;  
+    line-height: 2;
+    letter-spacing:1
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 35px;
+    border-top: solid 8px #4aaaa5;
+    background-color: #666666;
+    font-size: 13px;
+    color: #cccccc;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #MeBody{
+      height:100px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .NameLogo{
+        margin: auto;
+    }
+
+    .NameLogoRight{
+        float: left;
+    }
+
+    .header1{
+        position: static;
+    }
+
+    #pic{
+        margin-top:-540px;
+        margin-left: 90px;
+    }
+
+    #AboutMe{
+        height: 100%;
+    }
+
+    .paragraph{
+        margin-top:-330px;
+        margin-left:90;
+        margin-right: auto;
+        width: 60%;
+    }
+
+    .hrefLogoRight1, .hrefLogoRight2, .hrefLogoRight3{
+        margin-top: -25;
+    }
+
+    /* .hrefLogoRight1, .hrefLogoRight2, .hrefLogoRight3{
+        float: left;
+        margin-left: auto;
+    }
+
+    #AboutMe{
+        height: auto;
+        float: left;
+        margin-top: -545px;
+        margin-left:12px;
+        width: 83%
+    } */
+
+
+}
+
+

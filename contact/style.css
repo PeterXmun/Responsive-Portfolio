@@ -1,0 +1,193 @@
+.header1{
+    background-color: white;
+    border-bottom:solid 3px lightgray;
+    float: left;
+    width: 100%;
+    height: 70px;
+    margin-top: -10
+}
+
+.NameLogo{
+    padding: 30;
+    float: left;
+    margin-left: 395px;
+    background-color: #4aaaa5;
+    height: 10;
+}
+
+.Name{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: -12px;
+}
+
+p{
+    text-align: center
+}
+
+
+.NameLogoRight{
+    float: right;
+    color: darkgray;
+    text-decoration:none;
+    margin-right: 366px;
+}
+
+.hrefLogoRight{
+    float: right;
+    color: darkgray;
+    padding: 35;
+    text-decoration:none;
+    font-size: 20;
+    margin-right: -30px;
+}
+
+.hrefLogoRight1{
+    margin-left:-40;
+    float: right;
+    color: darkgray;
+    padding: 35;
+    text-decoration:none;
+    font-size: 17;
+}
+
+.hrefLogoRight2{
+    float: right;
+    color: darkgray;
+    padding: 35;
+    text-decoration:none;
+    margin-left:-40;
+}
+
+.hrefLogoRight3{
+    float: right;
+    color: darkgray;
+    padding: 35;
+    text-decoration:none;
+    margin-right: auto;
+}
+
+.body1{
+    background-color: orangered;
+    width: 100%;
+}
+
+.bodyBackground{
+    background-color: lightgray;  
+    width: 100%;
+    height: 100%;
+}
+
+#Contact{
+    background-color: white;
+    margin-top: -665px;
+    width: 50%;
+    height: 510px;
+    margin-left:25%;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 35px;
+    border-top: solid 8px #4aaaa5;
+    background-color: #666666;
+    font-size: 13px;
+    color: #cccccc;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .ContactHeader{
+    float:left;
+    margin:40px 30px; 
+    color: #4aaaa5;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.input1{
+    margin-top: 122;
+    margin-left: -130
+    }
+      
+    .input2{
+    margin-top: 30px;
+    margin-left: 32;
+    }
+    
+    .input3{
+    margin-top: 28;
+    margin-left: 32;   
+    }
+
+    .input4{
+        margin-top:60px;
+        margin-left: 30;
+        }
+
+    form { width: 400px; }
+    form section div { float: left; }
+    form section div.full { clear: both; }
+    form section div label { display: block; padding: 3; margin-left:-4}
+
+    #InputsMain{
+        padding:80;
+        margin-left: -50
+    }
+
+    #subject{
+        height:180;
+        width: 715;
+    }
+
+    @media screen and (max-width: 768px) {
+        .NameLogo{
+            margin: auto;
+        }
+    
+        .NameLogoRight{
+            float: left;
+        }
+    
+        .hrefLogoRight1, .hrefLogoRight2, .hrefLogoRight3{
+            float: left;
+            margin-left: auto;
+        }
+    
+        #Contact{
+            height: auto;
+            float: left;
+            margin-top: -545px;
+            margin-left:12px;
+            width: 83%
+        }
+    
+        .AboutMeHeader{
+            float: left;
+        }
+
+        .hrefLogoRight1, .hrefLogoRight2, .hrefLogoRight3{
+            float: left;
+            margin-left: auto;
+            margin-top: -23;
+            color:white;
+        }
+
+        #name, #email, #subject {
+            width: 300px;
+        }
+
+        #labelName{
+            margin-top: -30;
+        }
+
+        #subject {
+            height: 90px;
+        }
+    }
